@@ -1,6 +1,8 @@
 # 📚 NetBox – Documentación y Recursos de Estudio
 
-![NetBox Logo](https://raw.githubusercontent.com/netbox-community/netbox/develop/docs/netbox_logo.svg)
+  <img src="https://raw.githubusercontent.com/netbox-community/netbox/main/docs/netbox_logo_light.svg" width="400" alt="NetBox logo" />
+
+
 
 ## 📖 Descripción
 **NetBox** es una aplicación web de código abierto diseñada para ayudar a gestionar y documentar redes de computadoras. Originalmente desarrollada por [DigitalOcean](https://www.digitalocean.com), ahora es mantenida por la [comunidad de NetBox](https://github.com/netbox-community).  
