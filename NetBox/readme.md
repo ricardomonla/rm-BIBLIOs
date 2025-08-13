@@ -35,7 +35,22 @@ NetBox es ampliamente utilizado por administradores de sistemas, ingenieros de r
   Plugins, webhooks y scripts para adaptarse a necesidades específicas.
 
 ---
+## 📺 **Playlist de estudio inicial (Youtube):**  
+### **Netbox** (Introducción y tutoriales)
+- https://www.youtube.com/watch?v=ii_djUBOddA&list=PL3axWAyLEDFVQmaClQw9okadaNtWzrUIq
+  - by [***Arturo Baldo CCESTE***](https://www.youtube.com/@cceste)
+  
+Esta serie forma parte del canal **Arturo Baldo (CCEste)**, quien ofrece tutoriales concisos y claros sobre cómo implementar y utilizar NetBox, incluyendo temas como:
 
+- Implementando IPAM y DCIM con netbox-docker  
+- Link Aggregation y Port Channels en NetBox  
+- Interfaces virtuales y VLANs  
+- Campos personalizados, importación de datos, circuitos, proveedores y resolución de problemas  
+:contentReference[oaicite:0]{index=0}
+
+Estos videos te brindan una base práctica ideal para empezar a comprender NetBox desde cero.
+
+---
 ## 🔗 Enlaces Útiles
 
 - 🌐 **Sitio oficial**: [https://netbox.dev](https://netbox.dev)  
@@ -43,8 +58,6 @@ NetBox es ampliamente utilizado por administradores de sistemas, ingenieros de r
 - 💻 **Repositorio GitHub**: [https://github.com/netbox-community/netbox](https://github.com/netbox-community/netbox)  
 - 🐳 **NetBox Docker** (despliegue rápido): [https://github.com/netbox-community/netbox-docker](https://github.com/netbox-community/netbox-docker)  
 - 📢 **Comunidad / Discusiones**: [https://github.com/netbox-community/netbox/discussions](https://github.com/netbox-community/netbox/discussions)  
-- 📺 **Playlist en YouTube** (Introducción y tutoriales):  
-  [NetBox – Playlist completa](https://www.youtube.com/watch?v=ii_djUBOddA&list=PL3axWAyLEDFVQmaClQw9okadaNtWzrUIq)
 
 ---
 
