@@ -2,11 +2,7 @@
 *Biblioteca de conocimientos y temas de estudio.*
 
 <br>
-
-<details>
-  <summary>
-    <h2 style="display:inline; vertical-align: middle;">Virtualización: Proxmox</h2>
-  </summary>
+  <h2 style="display:inline; vertical-align: middle;">Virtualización: Proxmox</h2>
   <div style="padding-left: 25px; padding-top: 10px;">
     <details>
       <summary style="font-size: 1.1em; padding: 5px 0;">
@@ -107,14 +103,10 @@
       </div>
     </details>
   </div>
-</details>
 
 ---
 
-<details>
-  <summary>
-    <h2 style="display:inline; vertical-align: middle;">Contenedores: Docker</h2>
-  </summary>
+  <h2 style="display:inline; vertical-align: middle;">Contenedores: Docker</h2>
   <div style="padding-left: 25px; padding-top: 10px;">
     <details>
       <summary style="font-size: 1.1em; padding: 5px 0;">
@@ -145,14 +137,10 @@
       </div>
     </details>
   </div>
-</details>
 
 ---
 
-<details>
-  <summary>
-    <h2 style="display:inline; vertical-align: middle;">Redes y Acceso Remoto</h2>
-  </summary>
+  <h2 style="display:inline; vertical-align: middle;">Redes y Acceso Remoto</h2>
   <div style="padding-left: 25px; padding-top: 10px;">
     <details>
       <summary style="font-size: 1.1em; padding: 5px 0;">
@@ -197,14 +185,10 @@
       </div>
     </details>
   </div>
-</details>
 
 ---
 
-<details>
-  <summary>
-    <h2 style="display:inline; vertical-align: middle;">Aplicaciones: Servidor Multimedia</h2>
-  </summary>
+  <h2 style="display:inline; vertical-align: middle;">Aplicaciones: Servidor Multimedia</h2>
   <div style="padding-left: 25px; padding-top: 10px;">
     <details>
       <summary style="font-size: 1.1em; padding: 5px 0;">
@@ -235,7 +219,6 @@
       </div>
     </details>
   </div>
-</details>
 
 ---
 
