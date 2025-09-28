@@ -98,7 +98,7 @@
 - categoria: "Contenedores: Docker"
   items:
     - titulo: "DOCKER De NOVATO a PRO! (CURSO COMPLETO EN ESPAÑOL)"
-      ytb_id: "EU"
+      ytb_id: "CV_Uf3Dq-EU"
       aut_nom: "Pelado Nerd"
       aut_canal: "@pablokbs"
       descripcion: "Curso completo: instalación, imágenes y contenedores, volúmenes, redes, Dockerfile y Docker Compose."
@@ -116,7 +116,7 @@
 - categoria: "Redes y Acceso Remoto"
   items:
     - titulo: "Tailscale o WireGuard para VPN en tu VPS? AMBOS!"
-      ytb_id: "1"
+      ytb_id: "cxHwVsgVKRA"
       aut_nom: "Jonatan Castro"
       aut_canal: "@JonatanCastro"
       descripcion: "Comparativa y demo en un VPS: cuándo usar Tailscale o WireGuard y cómo combinarlos en un mismo servidor."
@@ -155,4 +155,4 @@
       aut_canal: "@TomSparkReviews"
       descripcion: "Guía para montar un servidor multimedia automatizado usando Emby, Sonarr, Radarr, Prowlarr y qBittorrent en Windows."
       estrellas: 2
-      comentario: "Solo le dejo 2 estrellas porque no me gustó que casi todo es de pago y para Windows."
+      comentario: "Pcoo me gustó, casi todo es de pago y para Windows."
