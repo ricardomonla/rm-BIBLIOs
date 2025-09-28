@@ -14,22 +14,22 @@
   <div style="padding:15px; margin:10px 0 15px 10px; border-left:3px solid #4CAF50; border-radius:8px; box-shadow:0 2px 5px rgba(0,0,0,0.08); overflow:hidden; background-color:#fdfdfd; color:#000;">
     <a href="https://www.youtube.com/watch?v=TbzrOz8HbFM" target="_blank"><img src="https://i.ytimg.com/vi/TbzrOz8HbFM/mqdefault.jpg" alt="Imagen Curso de VISUAL STUDIO CODE desde CERO (Completo)" width="180" style="float:right; margin-left:15px; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.15);"></a>
     <a href="https://www.youtube.com/@SoyDalto" target="_blank" style="display:block; margin-top:10px; color:#1976d2; text-decoration:none;">Soy Dalto</a>
-    <p style="font-style:normal; color:inherit;">MENU DEL CURSO DE VISUAL STUDIO CODE  
-0:00:00 - Introducción  
-0:01:22 - Entendiendo VS Code  
-0:08:09 - Descarga y configuración  
-0:14:12 - Interfaz de VS Code  
-0:21:29 - Explorer  
-0:33:41 - Search  
-0:43:02 - Source Control (git)  
-0:51:50 - Run and Debug (debugger)  
-1:00:20 - Extensions  
-1:11:48 - User Settings  
-1:26:34 - Atajos de teclado (shortcuts)  
-1:39:01 - Snippets  
-1:49:07 - Emmet  
-2:07:37 - Pair Programming (copilot)  
-2:17:20 - Cierre del curso  </p>
+    <p style="font-style:normal; color:inherit;">* MENU DEL CURSO DE VISUAL STUDIO CODE  
+  - 0:00:00 - Introducción  
+  - 0:01:22 - Entendiendo VS Code  
+  - 0:08:09 - Descarga y configuración  
+  - 0:14:12 - Interfaz de VS Code  
+  - 0:21:29 - Explorer  
+  - 0:33:41 - Search  
+  - 0:43:02 - Source Control (git)  
+  - 0:51:50 - Run and Debug (debugger)  
+  - 1:00:20 - Extensions  
+  - 1:11:48 - User Settings  
+  - 1:26:34 - Atajos de teclado (shortcuts)  
+  - 1:39:01 - Snippets  
+  - 1:49:07 - Emmet  
+  - 2:07:37 - Pair Programming (copilot)  
+  - 2:17:20 - Cierre del curso  </p>
     <p><strong>Calificación:</strong> ★★★★★</p>
     <p style="font-style:normal; color:inherit;">💭 Comentario pendiente.</p>
   </div>
@@ -157,11 +157,11 @@
 <div style="padding-left:20px;padding-top:10px;">
 <details>
   <summary style="font-size:1.05em; padding:6px 0; cursor:pointer; display:flex; align-items:center;">
-    <img src="https://i.ytimg.com/vi/CV_Uf3Dq-EU/mqdefault.jpg" alt="Miniatura DOCKER De NOVATO a PRO! (CURSO COMPLETO EN ESPAÑOL)" width="55" style="margin-right:10px; border-radius:6px; box-shadow:0 1px 3px rgba(0,0,0,0.25);">
+    <img src="https://i.ytimg.com/vi/EU/mqdefault.jpg" alt="Miniatura DOCKER De NOVATO a PRO! (CURSO COMPLETO EN ESPAÑOL)" width="55" style="margin-right:10px; border-radius:6px; box-shadow:0 1px 3px rgba(0,0,0,0.25);">
     <span><strong>DOCKER De NOVATO a PRO! (CURSO COMPLETO EN ESPAÑOL)</strong></span>
   </summary>
   <div style="padding:15px; margin:10px 0 15px 10px; border-left:3px solid #4CAF50; border-radius:8px; box-shadow:0 2px 5px rgba(0,0,0,0.08); overflow:hidden; background-color:#fdfdfd; color:#000;">
-    <a href="https://www.youtube.com/watch?v=CV_Uf3Dq-EU" target="_blank"><img src="https://i.ytimg.com/vi/CV_Uf3Dq-EU/mqdefault.jpg" alt="Imagen DOCKER De NOVATO a PRO! (CURSO COMPLETO EN ESPAÑOL)" width="180" style="float:right; margin-left:15px; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.15);"></a>
+    <a href="https://www.youtube.com/watch?v=EU" target="_blank"><img src="https://i.ytimg.com/vi/EU/mqdefault.jpg" alt="Imagen DOCKER De NOVATO a PRO! (CURSO COMPLETO EN ESPAÑOL)" width="180" style="float:right; margin-left:15px; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.15);"></a>
     <a href="https://www.youtube.com/@pablokbs" target="_blank" style="display:block; margin-top:10px; color:#1976d2; text-decoration:none;">Pelado Nerd</a>
     <p style="font-style:normal; color:inherit;">Curso completo: instalación, imágenes y contenedores, volúmenes, redes, Dockerfile y Docker Compose.</p>
     <p><strong>Calificación:</strong> ★★★★★</p>
@@ -189,11 +189,11 @@
 <div style="padding-left:20px;padding-top:10px;">
 <details>
   <summary style="font-size:1.05em; padding:6px 0; cursor:pointer; display:flex; align-items:center;">
-    <img src="https://i.ytimg.com/vi/cxHwVsgVKRA/mqdefault.jpg" alt="Miniatura Tailscale o WireGuard para VPN en tu VPS? AMBOS!" width="55" style="margin-right:10px; border-radius:6px; box-shadow:0 1px 3px rgba(0,0,0,0.25);">
+    <img src="https://i.ytimg.com/vi/1/mqdefault.jpg" alt="Miniatura Tailscale o WireGuard para VPN en tu VPS? AMBOS!" width="55" style="margin-right:10px; border-radius:6px; box-shadow:0 1px 3px rgba(0,0,0,0.25);">
     <span><strong>Tailscale o WireGuard para VPN en tu VPS? AMBOS!</strong></span>
   </summary>
   <div style="padding:15px; margin:10px 0 15px 10px; border-left:3px solid #4CAF50; border-radius:8px; box-shadow:0 2px 5px rgba(0,0,0,0.08); overflow:hidden; background-color:#fdfdfd; color:#000;">
-    <a href="https://www.youtube.com/watch?v=cxHwVsgVKRA&list=PL5LXSDCW5qwaVdE4dTGAJAsELY96B_T5B&index=1" target="_blank"><img src="https://i.ytimg.com/vi/cxHwVsgVKRA/mqdefault.jpg" alt="Imagen Tailscale o WireGuard para VPN en tu VPS? AMBOS!" width="180" style="float:right; margin-left:15px; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.15);"></a>
+    <a href="https://www.youtube.com/watch?v=1" target="_blank"><img src="https://i.ytimg.com/vi/1/mqdefault.jpg" alt="Imagen Tailscale o WireGuard para VPN en tu VPS? AMBOS!" width="180" style="float:right; margin-left:15px; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.15);"></a>
     <a href="https://www.youtube.com/@JonatanCastro" target="_blank" style="display:block; margin-top:10px; color:#1976d2; text-decoration:none;">Jonatan Castro</a>
     <p style="font-style:normal; color:inherit;">Comparativa y demo en un VPS: cuándo usar Tailscale o WireGuard y cómo combinarlos en un mismo servidor.</p>
     <p><strong>Calificación:</strong> ★★★★★</p>
@@ -254,7 +254,7 @@
   </summary>
   <div style="padding:15px; margin:10px 0 15px 10px; border-left:3px solid #4CAF50; border-radius:8px; box-shadow:0 2px 5px rgba(0,0,0,0.08); overflow:hidden; background-color:#fdfdfd; color:#000;">
     <a href="https://www.youtube.com/watch?v=LD8-Qr3B2-o" target="_blank"><img src="https://i.ytimg.com/vi/LD8-Qr3B2-o/mqdefault.jpg" alt="Imagen Make Automated Torrent Media Server with Emby, Sonarr, Radarr ..." width="180" style="float:right; margin-left:15px; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.15);"></a>
-    <span style="display:block; margin-top:10px; color:#1976d2;">Tom Spark's Reviews</span>
+    <a href="https://www.youtube.com/@TomSparkReviews" target="_blank" style="display:block; margin-top:10px; color:#1976d2; text-decoration:none;">Tom Spark's Reviews</a>
     <p style="font-style:normal; color:inherit;">Guía para montar un servidor multimedia automatizado usando Emby, Sonarr, Radarr, Prowlarr y qBittorrent en Windows.</p>
     <p><strong>Calificación:</strong> ★★</p>
     <p style="font-style:normal; color:inherit;">💭 Solo le dejo 2 estrellas porque no me gustó que casi todo es de pago y para Windows.</p>

@@ -6,11 +6,9 @@
 - categoria: "Desarrollo / VS Code"
   items:
     - titulo: "Curso de VISUAL STUDIO CODE desde CERO (Completo)"
-      autor: "Soy Dalto"
-      url: "https://www.youtube.com/watch?v=TbzrOz8HbFM"
-      short_url: "https://youtu.be/TbzrOz8HbFM"
-      canal: "https://www.youtube.com/@SoyDalto"
-      img: "https://i.ytimg.com/vi/TbzrOz8HbFM/mqdefault.jpg"
+      ytb_id: "TbzrOz8HbFM"
+      aut_nom: "Soy Dalto"
+      aut_canal: "@SoyDalto"
       descripcion: |
         * MENU DEL CURSO DE VISUAL STUDIO CODE  
           - 0:00:00 - Introducción  
@@ -28,15 +26,13 @@
           - 1:49:07 - Emmet  
           - 2:07:37 - Pair Programming (copilot)  
           - 2:17:20 - Cierre del curso  
-      publicacion: "2024-01-07"
       estrellas: 5
       comentario: "Comentario pendiente."
+
     - titulo: "Ya no necesito usar phpMyAdmin NUNCA MÁS !! Ahora LO TENGO INTEGRADO dentro de VS Code ¡POR FIN!"
-      autor: "Victor Robles WEB"
-      url: "https://www.youtube.com/watch?v=SB7_z25DdaY"
-      short_url: "https://youtu.be/SB7_z25DdaY"
-      canal: "https://www.youtube.com/@VictorRoblesWEB"
-      img: "https://i.ytimg.com/vi/SB7_z25DdaY/mqdefault.jpg"
+      ytb_id: "SB7_z25DdaY"
+      aut_nom: "Victor Robles WEB"
+      aut_canal: "@VictorRoblesWEB"
       descripcion: "Cómo integrar la administración MySQL directamente en VS Code, sin necesidad de usar phpMyAdmin."
       estrellas: 5
       comentario: "Comentario pendiente."
@@ -44,64 +40,57 @@
 - categoria: "Virtualización: Proxmox"
   items:
     - titulo: "Proxmox VE Helper Scripts"
-      autor: "Techno Tim"
-      url: "https://www.youtube.com/watch?v=gRVSbqXejtk"
-      canal: "https://www.youtube.com/@TechnoTim"
-      img: "https://i.ytimg.com/vi/gRVSbqXejtk/mqdefault.jpg"
+      ytb_id: "gRVSbqXejtk"
+      aut_nom: "Techno Tim"
+      aut_canal: "@TechnoTim"
       descripcion: "Introducción a Proxmox VE Helper-Scripts y cómo automatizar tareas y desplegar contenedores con un solo comando."
       estrellas: 5
       comentario: "Comentario pendiente."
 
     - titulo: "Proxmox Automation with Proxmox Helper Scripts!"
-      autor: "Techno Tim"
-      url: "https://www.youtube.com/watch?v=kcpu4z5eSEU"
-      canal: "https://www.youtube.com/@TechnoTim"
-      img: "https://i.ytimg.com/vi/kcpu4z5eSEU/mqdefault.jpg"
+      ytb_id: "kcpu4z5eSEU"
+      aut_nom: "Techno Tim"
+      aut_canal: "@TechnoTim"
       descripcion: "Automatiza Proxmox con los Helper-Scripts: ajustes de posinstalación, despliegue de contenedores LXC y servicios comunes."
       estrellas: 5
       comentario: "Comentario pendiente."
 
     - titulo: "Gracias tteck"
-      autor: "Jonatan Castro"
-      url: "https://www.youtube.com/watch?v=N6T_LnCxL9g"
-      canal: "https://www.youtube.com/@JonatanCastro"
-      img: "https://i.ytimg.com/vi/N6T_LnCxL9g/mqdefault.jpg"
+      ytb_id: "N6T_LnCxL9g"
+      aut_nom: "Jonatan Castro"
+      aut_canal: "@JonatanCastro"
       descripcion: "Homenaje y agradecimiento a tteck, creador de los Proxmox VE Helper-Scripts, destacando su impacto en la comunidad."
       estrellas: 5
       comentario: "Comentario pendiente."
 
     - titulo: "ProxMenux - El complemento ideal para tu Proxmox"
-      autor: "Jonatan Castro"
-      url: "https://www.youtube.com/watch?v=WtvcaK5lUZA"
-      canal: "https://www.youtube.com/@JonatanCastro"
-      img: "https://i.ytimg.com/vi/WtvcaK5lUZA/mqdefault.jpg"
+      ytb_id: "WtvcaK5lUZA"
+      aut_nom: "Jonatan Castro"
+      aut_canal: "@JonatanCastro"
       descripcion: "Presenta ProxMenux: un menú interactivo para administrar Proxmox VE y simplificar tareas de posinstalación y mantenimiento."
       estrellas: 3
       comentario: "Comentario pendiente."
 
     - titulo: "(CASI) TODO Sobre Proxmox Backup Server"
-      autor: "Jonatan Castro"
-      url: "https://www.youtube.com/watch?v=sws3iNGKsXs"
-      canal: "https://www.youtube.com/@JonatanCastro"
-      img: "https://i.ytimg.com/vi/sws3iNGKsXs/mqdefault.jpg"
+      ytb_id: "sws3iNGKsXs"
+      aut_nom: "Jonatan Castro"
+      aut_canal: "@JonatanCastro"
       descripcion: "Guía integral de PBS: instalación y configuración, creación de usuarios, sincronizaciones remotas, restauración y consejos prácticos."
       estrellas: 4
       comentario: "Comentario pendiente."
 
     - titulo: "Proxmox Backup Server: Local y en la Nube con Tuxis (Gratis!)"
-      autor: "Jonatan Castro"
-      url: "https://www.youtube.com/watch?v=lYdoCKGyqFc"
-      canal: "https://www.youtube.com/@JonatanCastro"
-      img: "https://i.ytimg.com/vi/lYdoCKGyqFc/mqdefault.jpg"
+      ytb_id: "lYdoCKGyqFc"
+      aut_nom: "Jonatan Castro"
+      aut_canal: "@JonatanCastro"
       descripcion: "Configura PBS en local y en la nube con almacenamiento remoto de Tuxis (plan gratuito)."
       estrellas: 4
       comentario: "Comentario pendiente."
 
     - titulo: "Cómo Crear un Volumen ZFS con RAID0 en Proxmox"
-      autor: "Jonatan Castro"
-      url: "https://www.youtube.com/watch?v=pkwL2iuw9po"
-      canal: "https://www.youtube.com/@JonatanCastro"
-      img: "https://i.ytimg.com/vi/pkwL2iuw9po/mqdefault.jpg"
+      ytb_id: "pkwL2iuw9po"
+      aut_nom: "Jonatan Castro"
+      aut_canal: "@JonatanCastro"
       descripcion: "Paso a paso para crear un pool ZFS en RAID0, repasando datasets/zvols y consideraciones de rendimiento."
       estrellas: 4
       comentario: "Comentario pendiente."
@@ -109,19 +98,17 @@
 - categoria: "Contenedores: Docker"
   items:
     - titulo: "DOCKER De NOVATO a PRO! (CURSO COMPLETO EN ESPAÑOL)"
-      autor: "Pelado Nerd"
-      url: "https://www.youtube.com/watch?v=CV_Uf3Dq-EU"
-      canal: "https://www.youtube.com/@pablokbs"
-      img: "https://i.ytimg.com/vi/CV_Uf3Dq-EU/mqdefault.jpg"
+      ytb_id: "EU"
+      aut_nom: "Pelado Nerd"
+      aut_canal: "@pablokbs"
       descripcion: "Curso completo: instalación, imágenes y contenedores, volúmenes, redes, Dockerfile y Docker Compose."
       estrellas: 5
       comentario: "Comentario pendiente."
 
     - titulo: "Descubre 20 aplicaciones que puedes instalar con DOCKER"
-      autor: "Domótica Fácil con Jota"
-      url: "https://www.youtube.com/watch?v=gqpJ7RE02Ao"
-      canal: "https://www.youtube.com/@DomoticaFacilconJota"
-      img: "https://i.ytimg.com/vi/gqpJ7RE02Ao/mqdefault.jpg"
+      ytb_id: "gqpJ7RE02Ao"
+      aut_nom: "Domótica Fácil con Jota"
+      aut_canal: "@DomoticaFacilconJota"
       descripcion: "Lista de 20 aplicaciones que puedes instalar usando Docker, más allá de la domótica."
       estrellas: 4
       comentario: "Comentario pendiente."
@@ -129,28 +116,25 @@
 - categoria: "Redes y Acceso Remoto"
   items:
     - titulo: "Tailscale o WireGuard para VPN en tu VPS? AMBOS!"
-      autor: "Jonatan Castro"
-      url: "https://www.youtube.com/watch?v=cxHwVsgVKRA&list=PL5LXSDCW5qwaVdE4dTGAJAsELY96B_T5B&index=1"
-      canal: "https://www.youtube.com/@JonatanCastro"
-      img: "https://i.ytimg.com/vi/cxHwVsgVKRA/mqdefault.jpg"
+      ytb_id: "1"
+      aut_nom: "Jonatan Castro"
+      aut_canal: "@JonatanCastro"
       descripcion: "Comparativa y demo en un VPS: cuándo usar Tailscale o WireGuard y cómo combinarlos en un mismo servidor."
       estrellas: 5
       comentario: "Comentario pendiente."
 
     - titulo: "Acceso seguro con Nginx Proxy Manager"
-      autor: "Jonatan Castro"
-      url: "https://www.youtube.com/watch?v=0ghEc_R6png"
-      canal: "https://www.youtube.com/@JonatanCastro"
-      img: "https://i.ytimg.com/vi/0ghEc_R6png/mqdefault.jpg"
+      ytb_id: "0ghEc_R6png"
+      aut_nom: "Jonatan Castro"
+      aut_canal: "@JonatanCastro"
       descripcion: "Explica qué es un reverse proxy y cómo configurar Nginx Proxy Manager con certificados de Let's Encrypt."
       estrellas: 5
       comentario: "Comentario pendiente."
 
     - titulo: "Usando el modulo GEOIP en NGINX con Docker"
-      autor: "Pelado Nerd"
-      url: "https://www.youtube.com/watch?v=ZpEfjsJamcU"
-      canal: "https://www.youtube.com/@pablokbs"
-      img: "https://i.ytimg.com/vi/ZpEfjsJamcU/mqdefault.jpg"
+      ytb_id: "ZpEfjsJamcU"
+      aut_nom: "Pelado Nerd"
+      aut_canal: "@pablokbs"
       descripcion: "Uso del módulo GeoIP en Nginx dentro de Docker para redirigir por país a sitios o páginas diferentes."
       estrellas: 4
       comentario: "Comentario pendiente."
@@ -158,19 +142,17 @@
 - categoria: "Aplicaciones: Servidor Multimedia"
   items:
     - titulo: "Como ver películas gratis con tu propio servidor multimedia (suite *arr)"
-      autor: "Jonatan Castro"
-      url: "https://www.youtube.com/watch?v=t1RWOydFWy8"
-      canal: "https://www.youtube.com/@JonatanCastro"
-      img: "https://i.ytimg.com/vi/t1RWOydFWy8/mqdefault.jpg"
+      ytb_id: "t1RWOydFWy8"
+      aut_nom: "Jonatan Castro"
+      aut_canal: "@JonatanCastro"
       descripcion: "Configuración de la suite *Arr (Radarr/Sonarr/Prowlarr) con qBittorrent y un servidor multimedia (Jellyfin o Plex) para automatizar descargas."
       estrellas: 5
       comentario: "Comentario pendiente."
 
     - titulo: "Make Automated Torrent Media Server with Emby, Sonarr, Radarr ..."
-      autor: "Tom Spark's Reviews"
-      url: "https://www.youtube.com/watch?v=LD8-Qr3B2-o"
-      canal: "@TomSparkReviews"
-      img: "https://i.ytimg.com/vi/LD8-Qr3B2-o/mqdefault.jpg"
+      ytb_id: "LD8-Qr3B2-o"
+      aut_nom: "Tom Spark's Reviews"
+      aut_canal: "@TomSparkReviews"
       descripcion: "Guía para montar un servidor multimedia automatizado usando Emby, Sonarr, Radarr, Prowlarr y qBittorrent en Windows."
       estrellas: 2
       comentario: "Solo le dejo 2 estrellas porque no me gustó que casi todo es de pago y para Windows."
