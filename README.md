@@ -6,31 +6,16 @@
   <div style="padding-left: 25px; padding-top: 10px;">
     <details>
       <summary style="font-size: 1.1em; padding: 5px 0;">
-        <img src="https://i.ytimg.com/vi/TbzrOz8HbFM/mqdefault.jpg" alt="Miniatura" width="60" style="margin-right: 10px; border-radius: 4px; vertical-align: middle;">
-        <strong>Curso de VISUAL STUDIO CODE desde CERO (Completo)</strong> por Soy Dalto
+        <img src="https://i.ytimg.com/vi/SB7_z25DdaY/mqdefault.jpg" alt="Miniatura" width="60" style="margin-right: 10px; border-radius: 4px; vertical-align: middle;">
+        <strong>Ya no necesito usar phpMyAdmin NUNCA MÁS !! Ahora LO TENGO INTEGRADO dentro de VS Code ¡POR FIN!</strong> por Victor Robles WEB
       </summary>
       <div style="padding: 15px; overflow: hidden; border-left: 2px solid #ddd; margin-top: 5px; margin-left: 5px;">
-        <a href="https://www.youtube.com/watch?v=TbzrOz8HbFM" target="_blank">
-          <img src="https://i.ytimg.com/vi/TbzrOz8HbFM/mqdefault.jpg" alt="Miniatura Curso de VISUAL STUDIO CODE desde CERO (Completo)" width="150" style="float: right; margin-left: 15px; border-radius: 8px;">
+        <a href="https://www.youtube.com/watch?v=SB7_z25DdaY" target="_blank">
+          <img src="https://i.ytimg.com/vi/SB7_z25DdaY/mqdefault.jpg" alt="Miniatura Ya no necesito usar phpMyAdmin NUNCA MÁS !! Ahora LO TENGO INTEGRADO dentro de VS Code ¡POR FIN!" width="150" style="float: right; margin-left: 15px; border-radius: 8px;">
         </a>
-        <strong><a href="https://www.youtube.com/watch?v=TbzrOz8HbFM" target="_blank">Curso de VISUAL STUDIO CODE desde CERO (Completo)</a></strong><br>
-        por <a href="https://www.youtube.com/@SoyDalto" target="_blank">Soy Dalto</a><br><br>
-        <em>MENU DEL CURSO DE VISUAL STUDIO CODE  
-0:00:00 - Introducción  
-0:01:22 - Entendiendo VS Code  
-0:08:09 - Descarga y configuración  
-0:14:12 - Interfaz de VS Code  
-0:21:29 - Explorer  
-0:33:41 - Search  
-0:43:02 - Source Control (git)  
-0:51:50 - Run and Debug (debugger)  
-1:00:20 - Extensions  
-1:11:48 - User Settings  
-1:26:34 - Atajos de teclado (shortcuts)  
-1:39:01 - Snippets  
-1:49:07 - Emmet  
-2:07:37 - Pair Programming (copilot)  
-2:17:20 - Cierre del curso  </em><br><br>
+        <strong><a href="https://www.youtube.com/watch?v=SB7_z25DdaY" target="_blank">Ya no necesito usar phpMyAdmin NUNCA MÁS !! Ahora LO TENGO INTEGRADO dentro de VS Code ¡POR FIN!</a></strong><br>
+        por <a href="https://www.youtube.com/@VictorRoblesWEB" target="_blank">Victor Robles WEB</a><br><br>
+        <em>Cómo integrar la administración MySQL directamente en VS Code, sin necesidad de usar phpMyAdmin.</em><br><br>
         <strong>Calificación:</strong> ★★★★★<br>
         <em>Comentario pendiente.</em>
       </div>

@@ -4,8 +4,8 @@
 # Requiere: yq (https://github.com/mikefarah/yq)
 # ==============================================================
 
-DATA_FILE="_data/recursos.yml"
-README_FILE="README.md"
+DATA_FILE="recursos.yml"
+README_FILE="../README.md"
 
 HEADER="# RM-rmBiblioteca
 *Biblioteca de conocimientos y temas de estudio.*

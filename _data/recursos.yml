@@ -31,6 +31,17 @@
       publicacion: "2024-01-07"
       estrellas: 5
       comentario: "Comentario pendiente."
+  items:
+    - titulo: "Ya no necesito usar phpMyAdmin NUNCA MÁS !! Ahora LO TENGO INTEGRADO dentro de VS Code ¡POR FIN!"
+      autor: "Victor Robles WEB"
+      url: "https://www.youtube.com/watch?v=SB7_z25DdaY"
+      short_url: "https://youtu.be/SB7_z25DdaY"
+      canal: "https://www.youtube.com/@VictorRoblesWEB"
+      img: "https://i.ytimg.com/vi/SB7_z25DdaY/mqdefault.jpg"
+      descripcion: "Cómo integrar la administración MySQL directamente en VS Code, sin necesidad de usar phpMyAdmin."
+      estrellas: 5
+      comentario: "Comentario pendiente."
+
 
 - categoria: "Virtualización: Proxmox"
   items:
