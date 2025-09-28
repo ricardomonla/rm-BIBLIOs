@@ -11,23 +11,8 @@ set -o pipefail
 DATA_FILE="recursos.yml"
 README_FILE="../README.md"
 
-# === CSS reutilizable ===
-CSS_STYLES='<style>
-summary { font-size:1.05em; padding:6px 0; cursor:pointer; display:flex; align-items:center; }
-.summary-img { margin-right:10px; border-radius:6px; box-shadow:0 1px 3px rgba(0,0,0,0.25); }
-.detail-card { padding:15px; margin:10px 0 15px 10px; border-left:3px solid #4CAF50; border-radius:8px; box-shadow:0 2px 5px rgba(0,0,0,0.08); overflow:hidden; background-color:#fdfdfd; color:#000; }
-.detail-card img { float:right; margin-left:15px; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.15); }
-.author { display:block; margin-top:10px; color:#1976d2; }
-.desc, .comment { font-style:normal; color:inherit; }
-@media (prefers-color-scheme: dark) {
-  .detail-card { background-color:#1e1e1e; border-left-color:#4CAF50; color:#ddd; box-shadow:0 2px 5px rgba(255,255,255,0.05); }
-  .detail-card img { box-shadow:0 2px 6px rgba(255,255,255,0.08); }
-}
-</style>'
-
 HEADER="# 📚 RM-rmBiblioteca
 *Biblioteca de conocimientos y temas de estudio.*
-$CSS_STYLES
 
 ---
 "
@@ -70,33 +55,33 @@ while IFS= read -r bloque; do
 
         # Autor con enlace si existe
         if [ -n "$canal" ] && [ "$canal" != "null" ]; then
-            autor_html="<a class=\"author\" href=\"$canal\" target=\"_blank\">$autor</a>"
+            autor_html="<a href=\"$canal\" target=\"_blank\" style=\"display:block; margin-top:10px; color:#1976d2; text-decoration:none;\">$autor</a>"
         else
-            autor_html="<span class=\"author\">$autor</span>"
+            autor_html="<span style=\"display:block; margin-top:10px; color:#1976d2;\">$autor</span>"
         fi
 
         # Miniatura (summary) y detalle (derecha)
         if [ -n "$img" ] && [ "$img" != "null" ]; then
-            summary_img="<img src=\"$img\" alt=\"Miniatura $titulo\" width=\"55\" class=\"summary-img\">"
-            detail_img="<a href=\"$url\" target=\"_blank\"><img src=\"$img\" alt=\"Imagen $titulo\" width=\"180\"></a>"
+            summary_img="<img src=\"$img\" alt=\"Miniatura $titulo\" width=\"55\" style=\"margin-right:10px; border-radius:6px; box-shadow:0 1px 3px rgba(0,0,0,0.25);\">"
+            detail_img="<a href=\"$url\" target=\"_blank\"><img src=\"$img\" alt=\"Imagen $titulo\" width=\"180\" style=\"float:right; margin-left:15px; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.15);\"></a>"
         else
             summary_img=""
             detail_img=""
         fi
 
-        # Bloque HTML
+        # Bloque HTML con estilos inline en todo
         cat <<EOF >> "$README_FILE"
 <details>
-  <summary>
+  <summary style="font-size:1.05em; padding:6px 0; cursor:pointer; display:flex; align-items:center;">
     $summary_img
     <span><strong>$titulo</strong></span>
   </summary>
-  <div class="detail-card">
+  <div style="padding:15px; margin:10px 0 15px 10px; border-left:3px solid #4CAF50; border-radius:8px; box-shadow:0 2px 5px rgba(0,0,0,0.08); overflow:hidden; background-color:#fdfdfd; color:#000;">
     $detail_img
     $autor_html
-    <p class="desc">$descripcion</p>
+    <p style="font-style:normal; color:inherit;">$descripcion</p>
     <p><strong>Calificación:</strong> $rating</p>
-    <p class="comment">💭 $comentario</p>
+    <p style="font-style:normal; color:inherit;">💭 $comentario</p>
   </div>
 </details>
 
