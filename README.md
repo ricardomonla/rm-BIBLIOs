@@ -1,60 +1,15 @@
 # 📚 RM-rmBiblioteca
 *Biblioteca de conocimientos y temas de estudio.*
-
 <style>
-/* === Estilos generales === */
-summary {
-  font-size: 1.05em;
-  padding: 6px 0;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-}
-.summary-img {
-  margin-right: 10px;
-  border-radius: 6px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.25);
-}
-.detail-card {
-  padding: 15px;
-  margin: 10px 0 15px 10px;
-  border-left: 3px solid #4CAF50;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.08);
-  overflow: hidden;
-  background-color: #fdfdfd; /* claro por defecto */
-  color: #000; /* texto predeterminado */
-}
-/* Imagen en detalle flotando a la derecha */
-.detail-card img {
-  float: right;
-  margin-left: 15px;
-  border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
-}
-/* Autor debajo de la imagen */
-.author {
-  display: block;
-  margin-top: 10px;
-  color: #1976d2; /* azul accesible */
-}
-/* Descripción y comentario sin estilos de fuente */
-.desc, .comment {
-  font-style: normal;
-  color: inherit;
-}
-
-/* === Modo oscuro === */
+summary { font-size:1.05em; padding:6px 0; cursor:pointer; display:flex; align-items:center; }
+.summary-img { margin-right:10px; border-radius:6px; box-shadow:0 1px 3px rgba(0,0,0,0.25); }
+.detail-card { padding:15px; margin:10px 0 15px 10px; border-left:3px solid #4CAF50; border-radius:8px; box-shadow:0 2px 5px rgba(0,0,0,0.08); overflow:hidden; background-color:#fdfdfd; color:#000; }
+.detail-card img { float:right; margin-left:15px; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.15); }
+.author { display:block; margin-top:10px; color:#1976d2; }
+.desc, .comment { font-style:normal; color:inherit; }
 @media (prefers-color-scheme: dark) {
-  .detail-card {
-    background-color: #1e1e1e;
-    border-left-color: #4CAF50;
-    color: #ddd;
-    box-shadow: 0 2px 5px rgba(255,255,255,0.05);
-  }
-  .detail-card img {
-    box-shadow: 0 2px 6px rgba(255,255,255,0.08);
-  }
+  .detail-card { background-color:#1e1e1e; border-left-color:#4CAF50; color:#ddd; box-shadow:0 2px 5px rgba(255,255,255,0.05); }
+  .detail-card img { box-shadow:0 2px 6px rgba(255,255,255,0.08); }
 }
 </style>
 
