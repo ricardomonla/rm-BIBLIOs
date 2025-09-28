@@ -3,6 +3,35 @@
 # Biblioteca de recursos
 # Cada categoría contiene un listado de items (videos/artículos/etc.)
 
+- categoria: "Desarrollo / VS Code"
+  items:
+    - titulo: "Curso de VISUAL STUDIO CODE desde CERO (Completo)"
+      autor: "Soy Dalto"
+      url: "https://www.youtube.com/watch?v=TbzrOz8HbFM"
+      short_url: "https://youtu.be/TbzrOz8HbFM"
+      canal: "https://www.youtube.com/@SoyDalto"
+      img: "https://i.ytimg.com/vi/TbzrOz8HbFM/mqdefault.jpg"
+      descripcion: |
+        MENU DEL CURSO DE VISUAL STUDIO CODE  
+        0:00:00 - Introducción  
+        0:01:22 - Entendiendo VS Code  
+        0:08:09 - Descarga y configuración  
+        0:14:12 - Interfaz de VS Code  
+        0:21:29 - Explorer  
+        0:33:41 - Search  
+        0:43:02 - Source Control (git)  
+        0:51:50 - Run and Debug (debugger)  
+        1:00:20 - Extensions  
+        1:11:48 - User Settings  
+        1:26:34 - Atajos de teclado (shortcuts)  
+        1:39:01 - Snippets  
+        1:49:07 - Emmet  
+        2:07:37 - Pair Programming (copilot)  
+        2:17:20 - Cierre del curso  
+      publicacion: "2024-01-07"
+      estrellas: 5
+      comentario: "Comentario pendiente."
+
 - categoria: "Virtualización: Proxmox"
   items:
     - titulo: "Proxmox VE Helper Scripts"
