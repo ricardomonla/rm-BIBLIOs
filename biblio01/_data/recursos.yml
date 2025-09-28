@@ -1,0 +1,31 @@
+# _data/recursos.yml
+
+- categoria: "Virtualización: Proxmox"
+  items:
+    - titulo: "Proxmox VE Helper Scripts"
+      autor: "Techno Tim"
+      url: "https://www.youtube.com/watch?v=gRVSbqXejtk"
+      canal: "https://www.youtube.com/@TechnoTim"
+      img: "https://i.ytimg.com/vi/gRVSbqXejtk/mqdefault.jpg"
+      descripcion: "Introducción a Proxmox VE Helper-Scripts y cómo automatizar tareas."
+      estrellas: 5
+      comentario: "Comentario pendiente."
+    - titulo: "Proxmox Automation with Helper Scripts!"
+      autor: "Techno Tim"
+      url: "https://www.youtube.com/watch?v=kcpu4z5eSEU"
+      canal: "https://www.youtube.com/@TechnoTim"
+      img: "https://i.ytimg.com/vi/kcpu4z5eSEU/mqdefault.jpg"
+      descripcion: "Automatiza Proxmox con los Helper-Scripts."
+      estrellas: 5
+      comentario: "Comentario pendiente."
+
+- categoria: "Contenedores: Docker"
+  items:
+    - titulo: "DOCKER De NOVATO a PRO!"
+      autor: "Pelado Nerd"
+      url: "https://www.youtube.com/watch?v=CV_Uf3Dq-EU"
+      canal: "https://www.youtube.com/@pablokbs"
+      img: "https://i.ytimg.com/vi/CV_Uf3Dq-EU/mqdefault.jpg"
+      descripcion: "Curso completo: instalación, volúmenes, redes, Dockerfile y Compose."
+      estrellas: 5
+      comentario: "Comentario pendiente."
