@@ -3,155 +3,160 @@
 # Biblioteca de recursos
 # Cada categoría contiene un listado de items (videos/artículos/etc.)
 
-- categoria: "Desarrollo / VS Code"
+- categoria: "Comunicación y Colaboración"
+  items:
+    - titulo: "GUÍA BÁSICA PARA ENTENDER DISCORD - #ESimple"
+      ytb_id: "GxmmJjcRLOI"
+      aut_nom: "ESimple"
+      aut_canal: "@ESimple"
+      descripcion: "Guía completa para principiantes que cubre creación de cuenta, interfaz, servidores, canales de texto/voz, roles, permisos y configuración esencial de Discord."
+      estrellas: 5
+      comentario: "Excelente introducción para nuevos usuarios, con explicaciones claras y ejemplos prácticos de todas las funciones básicas."
+
+- categoria: "Desarrollo - Editores y Herramientas"
   items:
     - titulo: "Curso de VISUAL STUDIO CODE desde CERO (Completo)"
       ytb_id: "TbzrOz8HbFM"
       aut_nom: "Soy Dalto"
       aut_canal: "@SoyDalto"
-      descripcion: "* MENU DEL CURSO DE VISUAL STUDIO CODE  
-          - 0:00:00 - Introducción  
-          - 0:01:22 - Entendiendo VS Code  
-          - 0:08:09 - Descarga y configuración  
-          - 0:14:12 - Interfaz de VS Code  
-          - 0:21:29 - Explorer  
-          - 0:33:41 - Search  
-          - 0:43:02 - Source Control (git)  
-          - 0:51:50 - Run and Debug (debugger)  
-          - 1:00:20 - Extensions  
-          - 1:11:48 - User Settings  
-          - 1:26:34 - Atajos de teclado (shortcuts)  
-          - 1:39:01 - Snippets  
-          - 1:49:07 - Emmet  
-          - 2:07:37 - Pair Programming (copilot)  
-          - 2:17:20 - Cierre del curso"  
+      descripcion: "Curso completo de 2+ horas cubriendo interfaz, configuración, extensiones, Git, debugging, snippets, Emmet, shortcuts y herramientas avanzadas de VS Code."
       estrellas: 5
-      comentario: "Comentario pendiente."
+      comentario: "Uno de los mejores cursos en español para dominar VS Code. Muy completo, bien estructurado y con ejemplos prácticos."
 
     - titulo: "Ya no necesito usar phpMyAdmin NUNCA MÁS !! Ahora LO TENGO INTEGRADO dentro de VS Code ¡POR FIN!"
       ytb_id: "SB7_z25DdaY"
       aut_nom: "Victor Robles WEB"
       aut_canal: "@VictorRoblesWEB"
-      descripcion: "Cómo integrar la administración MySQL directamente en VS Code, sin necesidad de usar phpMyAdmin."
+      descripcion: "Integración completa de MySQL en VS Code mediante extensión: conexión a bases de datos, ejecución de consultas SQL y gestión de tablas sin salir del editor."
       estrellas: 5
-      comentario: "Comentario pendiente."
+      comentario: "Muy útil para desarrolladores que buscan centralizar su workflow. Ahorra tiempo y mejora la productividad."
 
-- categoria: "Virtualización: Proxmox"
+- categoria: "Virtualización - Proxmox VE"
   items:
     - titulo: "Proxmox VE Helper Scripts"
       ytb_id: "gRVSbqXejtk"
       aut_nom: "Techno Tim"
       aut_canal: "@TechnoTim"
-      descripcion: "Introducción a Proxmox VE Helper-Scripts y cómo automatizar tareas y desplegar contenedores con un solo comando."
+      descripcion: "Introducción a los Helper-Scripts de Proxmox VE para automatizar tareas de instalación, configuración y despliegue de contenedores LXC."
       estrellas: 5
-      comentario: "Comentario pendiente."
+      comentario: "Excelente explicación de los scripts que simplifican enormemente la administración de Proxmox. Muy práctico."
 
     - titulo: "Proxmox Automation with Proxmox Helper Scripts!"
       ytb_id: "kcpu4z5eSEU"
       aut_nom: "Techno Tim"
       aut_canal: "@TechnoTim"
-      descripcion: "Automatiza Proxmox con los Helper-Scripts: ajustes de posinstalación, despliegue de contenedores LXC y servicios comunes."
+      descripcion: "Automatización avanzada con Helper-Scripts: configuración post-instalación, despliegue de contenedores LXC e implementación de servicios comunes."
       estrellas: 5
-      comentario: "Comentario pendiente."
+      comentario: "Perfecto complemento al video anterior, mostrando casos de uso reales y configuraciones avanzadas."
 
     - titulo: "Gracias tteck"
       ytb_id: "N6T_LnCxL9g"
       aut_nom: "Jonatan Castro"
       aut_canal: "@JonatanCastro"
-      descripcion: "Homenaje y agradecimiento a tteck, creador de los Proxmox VE Helper-Scripts, destacando su impacto en la comunidad."
+      descripcion: "Reconocimiento al trabajo de tteck, creador de los Proxmox VE Helper-Scripts, y su impacto en la comunidad de virtualización."
       estrellas: 5
-      comentario: "Comentario pendiente."
+      comentario: "Interesante perspectiva sobre la comunidad open source y el valor de estas herramientas gratuitas."
 
-    - titulo: "ProxMenux - El complemento ideal para tu Proxmox"
-      ytb_id: "WtvcaK5lUZA"
-      aut_nom: "Jonatan Castro"
-      aut_canal: "@JonatanCastro"
-      descripcion: "Presenta ProxMenux: un menú interactivo para administrar Proxmox VE y simplificar tareas de posinstalación y mantenimiento."
-      estrellas: 3
-      comentario: "Comentario pendiente."
-
+- categoria: "Virtualización - Backup y Almacenamiento"
+  items:
     - titulo: "(CASI) TODO Sobre Proxmox Backup Server"
       ytb_id: "sws3iNGKsXs"
       aut_nom: "Jonatan Castro"
       aut_canal: "@JonatanCastro"
-      descripcion: "Guía integral de PBS: instalación y configuración, creación de usuarios, sincronizaciones remotas, restauración y consejos prácticos."
+      descripcion: "Guía completa de Proxmox Backup Server: instalación, configuración, creación de usuarios, sincronizaciones remotas y procesos de restauración."
       estrellas: 4
-      comentario: "Comentario pendiente."
+      comentario: "Muy buena guía para implementar un sistema de backups robusto en Proxmox. Explicación clara y detallada."
 
     - titulo: "Proxmox Backup Server: Local y en la Nube con Tuxis (Gratis!)"
       ytb_id: "lYdoCKGyqFc"
       aut_nom: "Jonatan Castro"
       aut_canal: "@JonatanCastro"
-      descripcion: "Configura PBS en local y en la nube con almacenamiento remoto de Tuxis (plan gratuito)."
+      descripcion: "Configuración híbrida de PBS con almacenamiento local y en la nube usando el plan gratuito de Tuxis para backups remotos."
       estrellas: 4
-      comentario: "Comentario pendiente."
+      comentario: "Solución económica para backups en la nube. Bien explicado el proceso de configuración."
 
     - titulo: "Cómo Crear un Volumen ZFS con RAID0 en Proxmox"
       ytb_id: "pkwL2iuw9po"
       aut_nom: "Jonatan Castro"
       aut_canal: "@JonatanCastro"
-      descripcion: "Paso a paso para crear un pool ZFS en RAID0, repasando datasets/zvols y consideraciones de rendimiento."
+      descripcion: "Tutorial paso a paso para crear pools ZFS en RAID0 en Proxmox, incluyendo gestión de datasets y consideraciones de rendimiento."
       estrellas: 4
-      comentario: "Comentario pendiente."
+      comentario: "Buen tutorial técnico, aunque sería útil incluir más opciones de RAID para diferentes casos de uso."
 
-- categoria: "Contenedores: Docker"
+- categoria: "Virtualización - Herramientas Adicionales"
+  items:
+    - titulo: "ProxMenux - El complemento ideal para tu Proxmox"
+      ytb_id: "WtvcaK5lUZA"
+      aut_nom: "Jonatan Castro"
+      aut_canal: "@JonatanCastro"
+      descripcion: "Presentación de ProxMenux: menú interactivo para simplificar la administración de Proxmox VE y tareas de mantenimiento."
+      estrellas: 3
+      comentario: "Interesante herramienta pero con funcionalidad limitada. Útil para usuarios que prefieren interfaces gráficas."
+
+- categoria: "Contenedores - Docker Fundamentos"
   items:
     - titulo: "DOCKER De NOVATO a PRO! (CURSO COMPLETO EN ESPAÑOL)"
       ytb_id: "CV_Uf3Dq-EU"
       aut_nom: "Pelado Nerd"
       aut_canal: "@pablokbs"
-      descripcion: "Curso completo: instalación, imágenes y contenedores, volúmenes, redes, Dockerfile y Docker Compose."
+      descripcion: "Curso completo de Docker: instalación, imágenes, contenedores, volúmenes, redes, Dockerfile, Docker Compose y mejores prácticas."
       estrellas: 5
-      comentario: "Comentario pendiente."
+      comentario: "Uno de los mejores cursos de Docker en español. Muy completo, bien explicado y con ejemplos prácticos."
 
+- categoria: "Contenedores - Aplicaciones Prácticas"
+  items:
     - titulo: "Descubre 20 aplicaciones que puedes instalar con DOCKER"
       ytb_id: "gqpJ7RE02Ao"
       aut_nom: "Domótica Fácil con Jota"
       aut_canal: "@DomoticaFacilconJota"
-      descripcion: "Lista de 20 aplicaciones que puedes instalar usando Docker, más allá de la domótica."
+      descripcion: "Showcase de 20 aplicaciones prácticas que pueden desplegarse fácilmente usando Docker, desde herramientas de productividad hasta servicios multimedia."
       estrellas: 4
-      comentario: "Comentario pendiente."
+      comentario: "Buen recurso para descubrir nuevas aplicaciones y ver el potencial práctico de Docker."
 
-- categoria: "Redes y Acceso Remoto"
+- categoria: "Redes - VPN y Seguridad"
   items:
     - titulo: "Tailscale o WireGuard para VPN en tu VPS? AMBOS!"
       ytb_id: "cxHwVsgVKRA"
       aut_nom: "Jonatan Castro"
       aut_canal: "@JonatanCastro"
-      descripcion: "Comparativa y demo en un VPS: cuándo usar Tailscale o WireGuard y cómo combinarlos en un mismo servidor."
+      descripcion: "Comparativa práctica entre Tailscale y WireGuard, demostrando cómo implementar ambas soluciones en un mismo VPS para diferentes casos de uso."
       estrellas: 5
-      comentario: "Comentario pendiente."
+      comentario: "Excelente análisis comparativo. Muy útil para entender cuándo usar cada herramienta y cómo combinarlas."
 
+- categoria: "Redes - Proxy y Nginx"
+  items:
     - titulo: "Acceso seguro con Nginx Proxy Manager"
       ytb_id: "0ghEc_R6png"
       aut_nom: "Jonatan Castro"
       aut_canal: "@JonatanCastro"
-      descripcion: "Explica qué es un reverse proxy y cómo configurar Nginx Proxy Manager con certificados de Let's Encrypt."
+      descripcion: "Configuración de reverse proxy con Nginx Proxy Manager, incluyendo gestión de dominios y certificados SSL con Let's Encrypt."
       estrellas: 5
-      comentario: "Comentario pendiente."
+      comentario: "Muy buena guía para implementar un proxy manager de forma sencilla. Ideal para exponer servicios de forma segura."
 
     - titulo: "Usando el modulo GEOIP en NGINX con Docker"
       ytb_id: "ZpEfjsJamcU"
       aut_nom: "Pelado Nerd"
       aut_canal: "@pablokbs"
-      descripcion: "Uso del módulo GeoIP en Nginx dentro de Docker para redirigir por país a sitios o páginas diferentes."
+      descripcion: "Implementación del módulo GeoIP en Nginx dentro de contenedores Docker para redirecciones basadas en ubicación geográfica."
       estrellas: 4
-      comentario: "Comentario pendiente."
+      comentario: "Tutorial técnico específico, útil para casos de uso que requieren geolocalización."
 
-- categoria: "Aplicaciones: Servidor Multimedia"
+- categoria: "Media Streaming - Servidores Multimedia"
   items:
     - titulo: "Como ver películas gratis con tu propio servidor multimedia (suite *arr)"
       ytb_id: "t1RWOydFWy8"
       aut_nom: "Jonatan Castro"
       aut_canal: "@JonatanCastro"
-      descripcion: "Configuración de la suite *Arr (Radarr/Sonarr/Prowlarr) con qBittorrent y un servidor multimedia (Jellyfin o Plex) para automatizar descargas."
+      descripcion: "Configuración completa de suite *Arr (Radarr/Sonarr/Prowlarr) con qBittorrent y servidor multimedia (Jellyfin/Plex) para automatizar descargas de contenido."
       estrellas: 5
-      comentario: "Comentario pendiente."
+      comentario: "Guía muy completa para montar un servidor multimedia automatizado. Explicación clara del ecosistema *Arr."
 
+- categoria: "Media Streaming - Alternativas"
+  items:
     - titulo: "Make Automated Torrent Media Server with Emby, Sonarr, Radarr ..."
       ytb_id: "LD8-Qr3B2-o"
       aut_nom: "Tom Spark's Reviews"
       aut_canal: "@TomSparkReviews"
-      descripcion: "Guía para montar un servidor multimedia automatizado usando Emby, Sonarr, Radarr, Prowlarr y qBittorrent en Windows."
+      descripcion: "Implementación de servidor multimedia automatizado usando Emby, Sonarr, Radarr, Prowlarr y qBittorrent en entorno Windows."
       estrellas: 2
-      comentario: "Pcoo me gustó, casi todo es de pago y para Windows."
+      comentario: "Enfoque muy orientado a Windows y con muchas limitaciones en versión gratuita. No recomendado para entornos profesionales."
