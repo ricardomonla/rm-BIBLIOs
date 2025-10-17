@@ -1,0 +1,277 @@
+/* Estilos generales */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+    font-weight: 500;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    margin-bottom: 30px;
+}
+
+/* Categorías */
+.categoria {
+    margin-bottom: 30px;
+}
+
+.categoria-titulo {
+    font-size: 1.3em;
+    font-weight: 500;
+    padding: 15px 20px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    color: #333;
+}
+
+.categoria-titulo:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+.categoria-contenido {
+    display: block; /* Cambiado a block para mostrar categorías como separadores */
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+/* Fichas de video */
+.video {
+    margin-bottom: 20px;
+    border-left: 4px solid #4CAF50;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.95);
+    color: #333;
+    padding: 20px;
+    transition: all 0.3s ease;
+    cursor: pointer; /* Agregado cursor pointer para indicar clickeable */
+}
+
+.video:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 35px rgba(0,0,0,0.15);
+}
+
+.video-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.video-thumbnail {
+    width: 120px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    margin-right: 15px;
+    transition: transform 0.3s ease;
+}
+
+.video-thumbnail:hover {
+    transform: scale(1.05);
+}
+
+.video-titulo {
+    font-size: 1.1em;
+    font-weight: 500;
+    margin: 0;
+    cursor: pointer;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.video-titulo:hover {
+    color: #1976d2;
+}
+
+.video-detalles {
+    margin-left: 135px;
+    display: none; /* Inicialmente ocultos para acordeón */
+}
+
+/* Enlaces seguros */
+.video-autor {
+    color: #1976d2;
+    text-decoration: none;
+    display: block;
+    margin-top: 15px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.video-autor:hover {
+    color: #0d47a1;
+}
+
+.video-canal {
+    margin-top: 8px;
+    font-weight: 500;
+}
+
+.video-canal a {
+    color: #ff0000;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    transition: color 0.3s ease;
+}
+
+.video-canal a:hover {
+    color: #cc0000;
+}
+
+.video-canal .youtube-icon {
+    margin-right: 5px;
+    font-size: 1.1em;
+}
+
+/* Descripción y comentario */
+.video-descripcion {
+    margin: 15px 0;
+    line-height: 1.6;
+    color: #555;
+}
+
+.video-comentario {
+    font-style: italic;
+    color: #666;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+
+/* Sistema de calificaciones con estrellas */
+.star-rating {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+.star-rating label {
+    cursor: pointer;
+    color: #ddd;
+    transition: color 0.3s ease;
+    margin: 0 2px;
+}
+
+.star-rating label:hover,
+.star-rating label:hover ~ label {
+    color: #ff9800;
+}
+
+.star-rating input[type="radio"] {
+    display: none;
+}
+
+.star-rating input[type="radio"]:checked ~ label {
+    color: #ff9800;
+}
+
+.star-rating input[type="radio"]:checked ~ label ~ label {
+    color: #ddd;
+}
+
+/* Animaciones para estrellas */
+.star-rating label {
+    animation: starPulse 2s infinite;
+}
+
+.star-rating label:hover {
+    animation: starHover 0.3s ease;
+}
+
+@keyframes starPulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+}
+
+@keyframes starHover {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+}
+
+/* Diseño responsivo */
+@media (max-width: 768px) {
+    .video-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .video-thumbnail {
+        width: 100%;
+        max-width: 200px;
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    .video-detalles {
+        margin-left: 0;
+    }
+
+    .categoria-contenido {
+        padding-left: 15px;
+    }
+
+    body {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .video {
+        padding: 15px;
+    }
+
+    .categoria-titulo {
+        font-size: 1.1em;
+        padding: 12px 15px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+}
+
+/* Accesibilidad */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}
+
+/* Focus visible para navegación por teclado */
+.video-titulo:focus,
+.video-autor:focus,
+.video-canal a:focus {
+    outline: 2px solid #1976d2;
+    outline-offset: 2px;
+}
+
+/* Alto contraste */
+@media (prefers-contrast: high) {
+    body {
+        background: #000;
+        color: #fff;
+    }
+
+    .video,
+    .categoria-titulo {
+        background: #fff;
+        color: #000;
+        border: 2px solid #000;
+    }
+}

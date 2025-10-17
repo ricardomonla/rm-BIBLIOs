@@ -1,0 +1,170 @@
+# _data/recursos.yml
+
+# Biblioteca de recursos
+# Cada categoría contiene un listado de items (videos/artículos/etc.)
+
+- categoria: "Comunicación y Colaboración"
+  items:
+    - titulo: "GUÍA BÁSICA PARA ENTENDER DISCORD - #ESimple"
+      ytb_id: "GxmmJjcRLOI"
+      aut_nom: "ESimple"
+      aut_canal: "@ESimple"
+      descripcion: "Guía completa para principiantes que cubre creación de cuenta, interfaz, servidores, canales de texto/voz, roles, permisos y configuración esencial de Discord."
+      estrellas: 5
+      comentario: "Excelente introducción para nuevos usuarios, con explicaciones claras y ejemplos prácticos de todas las funciones básicas."
+
+- categoria: "Desarrollo - Editores y Herramientas"
+  items:
+    - titulo: "Curso de VISUAL STUDIO CODE desde CERO (Completo)"
+      ytb_id: "TbzrOz8HbFM"
+      aut_nom: "Soy Dalto"
+      aut_canal: "@SoyDalto"
+      descripcion: "Curso completo de 2+ horas cubriendo interfaz, configuración, extensiones, Git, debugging, snippets, Emmet, shortcuts y herramientas avanzadas de VS Code."
+      estrellas: 5
+      comentario: "Uno de los mejores cursos en español para dominar VS Code. Muy completo, bien estructurado y con ejemplos prácticos."
+
+    - titulo: "Ya no necesito usar phpMyAdmin NUNCA MÁS !! Ahora LO TENGO INTEGRADO dentro de VS Code ¡POR FIN!"
+      ytb_id: "SB7_z25DdaY"
+      aut_nom: "Victor Robles WEB"
+      aut_canal: "@VictorRoblesWEB"
+      descripcion: "Integración completa de MySQL en VS Code mediante extensión: conexión a bases de datos, ejecución de consultas SQL y gestión de tablas sin salir del editor."
+      estrellas: 5
+      comentario: "Muy útil para desarrolladores que buscan centralizar su workflow. Ahorra tiempo y mejora la productividad."
+
+- categoria: "Virtualización - Proxmox VE"
+  items:
+    - titulo: "Proxmox VE Helper Scripts"
+      ytb_id: "gRVSbqXejtk"
+      aut_nom: "Techno Tim"
+      aut_canal: "@TechnoTim"
+      descripcion: "Introducción a los Helper-Scripts de Proxmox VE para automatizar tareas de instalación, configuración y despliegue de contenedores LXC."
+      estrellas: 5
+      comentario: "Excelente explicación de los scripts que simplifican enormemente la administración de Proxmox. Muy práctico."
+
+    - titulo: "Proxmox Automation with Proxmox Helper Scripts!"
+      ytb_id: "kcpu4z5eSEU"
+      aut_nom: "Techno Tim"
+      aut_canal: "@TechnoTim"
+      descripcion: "Automatización avanzada con Helper-Scripts: configuración post-instalación, despliegue de contenedores LXC e implementación de servicios comunes."
+      estrellas: 5
+      comentario: "Perfecto complemento al video anterior, mostrando casos de uso reales y configuraciones avanzadas."
+
+    - titulo: "Gracias tteck"
+      ytb_id: "N6T_LnCxL9g"
+      aut_nom: "Jonatan Castro"
+      aut_canal: "@JonatanCastro"
+      descripcion: "Reconocimiento al trabajo de tteck, creador de los Proxmox VE Helper-Scripts, y su impacto en la comunidad de virtualización."
+      estrellas: 5
+      comentario: "Interesante perspectiva sobre la comunidad open source y el valor de estas herramientas gratuitas."
+
+- categoria: "Virtualización - Backup y Almacenamiento"
+  items:
+    - titulo: "(CASI) TODO Sobre Proxmox Backup Server"
+      ytb_id: "sws3iNGKsXs"
+      aut_nom: "Jonatan Castro"
+      aut_canal: "@JonatanCastro"
+      descripcion: "Guía completa de Proxmox Backup Server: instalación, configuración, creación de usuarios, sincronizaciones remotas y procesos de restauración."
+      estrellas: 4
+      comentario: "Muy buena guía para implementar un sistema de backups robusto en Proxmox. Explicación clara y detallada."
+
+    - titulo: "Proxmox Backup Server: Local y en la Nube con Tuxis (Gratis!)"
+      ytb_id: "lYdoCKGyqFc"
+      aut_nom: "Jonatan Castro"
+      aut_canal: "@JonatanCastro"
+      descripcion: "Configuración híbrida de PBS con almacenamiento local y en la nube usando el plan gratuito de Tuxis para backups remotos."
+      estrellas: 4
+      comentario: "Solución económica para backups en la nube. Bien explicado el proceso de configuración."
+
+    - titulo: "Cómo Crear un Volumen ZFS con RAID0 en Proxmox"
+      ytb_id: "pkwL2iuw9po"
+      aut_nom: "Jonatan Castro"
+      aut_canal: "@JonatanCastro"
+      descripcion: "Tutorial paso a paso para crear pools ZFS en RAID0 en Proxmox, incluyendo gestión de datasets y consideraciones de rendimiento."
+      estrellas: 4
+      comentario: "Buen tutorial técnico, aunque sería útil incluir más opciones de RAID para diferentes casos de uso."
+
+- categoria: "Virtualización - Herramientas Adicionales"
+  items:
+    - titulo: "ProxMenux - El complemento ideal para tu Proxmox"
+      ytb_id: "WtvcaK5lUZA"
+      aut_nom: "Jonatan Castro"
+      aut_canal: "@JonatanCastro"
+      descripcion: "Presentación de ProxMenux: menú interactivo para simplificar la administración de Proxmox VE y tareas de mantenimiento."
+      estrellas: 3
+      comentario: "Interesante herramienta pero con funcionalidad limitada. Útil para usuarios que prefieren interfaces gráficas."
+
+- categoria: "Contenedores - Docker Fundamentos"
+  items:
+    - titulo: "DOCKER De NOVATO a PRO! (CURSO COMPLETO EN ESPAÑOL)"
+      ytb_id: "CV_Uf3Dq-EU"
+      aut_nom: "Pelado Nerd"
+      aut_canal: "@pablokbs"
+      descripcion: "Curso completo de Docker: instalación, imágenes, contenedores, volúmenes, redes, Dockerfile, Docker Compose y mejores prácticas."
+      estrellas: 5
+      comentario: "Uno de los mejores cursos de Docker en español. Muy completo, bien explicado y con ejemplos prácticos."
+
+- categoria: "Contenedores - Aplicaciones Prácticas"
+  items:
+    - titulo: "Descubre 20 aplicaciones que puedes instalar con DOCKER"
+      ytb_id: "gqpJ7RE02Ao"
+      aut_nom: "Domótica Fácil con Jota"
+      aut_canal: "@DomoticaFacilconJota"
+      descripcion: "Showcase de 20 aplicaciones prácticas que pueden desplegarse fácilmente usando Docker, desde herramientas de productividad hasta servicios multimedia."
+      estrellas: 4
+      comentario: "Buen recurso para descubrir nuevas aplicaciones y ver el potencial práctico de Docker."
+
+- categoria: "Redes - VPN y Seguridad"
+  items:
+    - titulo: "Tailscale o WireGuard para VPN en tu VPS? AMBOS!"
+      ytb_id: "cxHwVsgVKRA"
+      aut_nom: "Jonatan Castro"
+      aut_canal: "@JonatanCastro"
+      descripcion: "Comparativa práctica entre Tailscale y WireGuard, demostrando cómo implementar ambas soluciones en un mismo VPS para diferentes casos de uso."
+      estrellas: 5
+      comentario: "Excelente análisis comparativo. Muy útil para entender cuándo usar cada herramienta y cómo combinarlas."
+
+- categoria: "Redes - Proxy y Nginx"
+  items:
+    - titulo: "Acceso seguro con Nginx Proxy Manager"
+      ytb_id: "0ghEc_R6png"
+      aut_nom: "Jonatan Castro"
+      aut_canal: "@JonatanCastro"
+      descripcion: "Configuración de reverse proxy con Nginx Proxy Manager, incluyendo gestión de dominios y certificados SSL con Let's Encrypt."
+      estrellas: 5
+      comentario: "Muy buena guía para implementar un proxy manager de forma sencilla. Ideal para exponer servicios de forma segura."
+
+    - titulo: "Usando el modulo GEOIP en NGINX con Docker"
+      ytb_id: "ZpEfjsJamcU"
+      aut_nom: "Pelado Nerd"
+      aut_canal: "@pablokbs"
+      descripcion: "Implementación del módulo GeoIP en Nginx dentro de contenedores Docker para redirecciones basadas en ubicación geográfica."
+      estrellas: 4
+      comentario: "Tutorial técnico específico, útil para casos de uso que requieren geolocalización."
+
+- categoria: "Media Streaming - Servidores Multimedia"
+  items:
+    - titulo: "Como ver películas gratis con tu propio servidor multimedia (suite *arr)"
+      ytb_id: "t1RWOydFWy8"
+      aut_nom: "Jonatan Castro"
+      aut_canal: "@JonatanCastro"
+      descripcion: "Configuración completa de suite *Arr (Radarr/Sonarr/Prowlarr) con qBittorrent y servidor multimedia (Jellyfin/Plex) para automatizar descargas de contenido."
+      estrellas: 5
+      comentario: "Guía muy completa para montar un servidor multimedia automatizado. Explicación clara del ecosistema *Arr."
+
+- categoria: "Media Streaming - Alternativas"
+  items:
+    - titulo: "Make Automated Torrent Media Server with Emby, Sonarr, Radarr ..."
+      ytb_id: "LD8-Qr3B2-o"
+      aut_nom: "Tom Spark's Reviews"
+      aut_canal: "@TomSparkReviews"
+      descripcion: "Implementación de servidor multimedia automatizado usando Emby, Sonarr, Radarr, Prowlarr y qBittorrent en entorno Windows."
+      estrellas: 2
+      comentario: "Enfoque muy orientado a Windows y con muchas limitaciones en versión gratuita. No recomendado para entornos profesionales."
+
+    - titulo: "COMO MONTAR un SERVIDOR MULTIMEDIA casero (Jellyfin + qBittorrent + *arr)"
+      ytb_id: "wd4voMPEOGg"
+      aut_nom: "Jonatan Castro"
+      aut_canal: "@JonatanCastro"
+      descripcion: "Guía completa para montar un servidor multimedia casero usando Jellyfin, qBittorrent y la suite *arr (Radarr, Sonarr, Prowlarr) para automatizar descargas y gestión de contenido."
+      estrellas: 5
+      comentario: "Excelente tutorial paso a paso. Muy útil para montar un servidor multimedia completo en casa con herramientas open source."
