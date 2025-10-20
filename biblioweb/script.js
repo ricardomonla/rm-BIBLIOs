@@ -124,19 +124,26 @@ function renderBiblioteca() {
             // Miniatura del video con fallback
             const img = document.createElement('img');
             img.className = 'video-thumbnail';
-            img.src = `https://img.youtube.com/vi/${video.ytb_id}/maxresdefault.jpg`;
+            const thumbnailUrl = `https://img.youtube.com/vi/${video.ytb_id}/maxresdefault.jpg`;
+            console.log(`Loading thumbnail for ${video.titulo}: ${thumbnailUrl} (ytb_id: ${video.ytb_id})`);
+            img.src = thumbnailUrl;
             img.alt = `Miniatura ${video.titulo}`;
             img.onclick = () => openSafeLink(`https://www.youtube.com/watch?v=${video.ytb_id}`);
 
             // Fallback si maxresdefault no existe
             img.onerror = function() {
                 console.warn(`Miniatura maxresdefault no disponible para ${video.ytb_id}, intentando hqdefault`);
-                this.src = `https://img.youtube.com/vi/${video.ytb_id}/hqdefault.jpg`;
+                const hqUrl = `https://img.youtube.com/vi/${video.ytb_id}/hqdefault.jpg`;
+                console.log(`Fallback to hqdefault: ${hqUrl}`);
+                this.src = hqUrl;
                 this.onerror = function() {
                     console.warn(`Miniatura hqdefault tampoco disponible para ${video.ytb_id}, usando mqdefault`);
-                    this.src = `https://img.youtube.com/vi/${video.ytb_id}/mqdefault.jpg`;
+                    const mqUrl = `https://img.youtube.com/vi/${video.ytb_id}/mqdefault.jpg`;
+                    console.log(`Fallback to mqdefault: ${mqUrl}`);
+                    this.src = mqUrl;
                     this.onerror = function() {
-                        console.error(`Ninguna miniatura disponible para ${video.ytb_id}`);
+                        console.error(`Ninguna miniatura disponible para ${video.ytb_id}, usando placeholder`);
+                        console.log(`Final fallback to placeholder for ${video.ytb_id}`);
                         this.src = 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwIiBoZWlnaHQ9IjkwIiB2aWV3Qm94PSIwIDAgMTIwIDkwIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cmVjdCB3aWR0aD0iMTIwIiBoZWlnaHQ9IjkwIiBmaWxsPSIjZGRkIi8+Cjx0ZXh0IHg9IjYwIiB5PSI0NSIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIiBmaWxsPSIjOTk5IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkeT0iMC4zZW0iPk5vIGltYWdlPC90ZXh0Pgo8L3N2Zz4=';
                     };
                 };
